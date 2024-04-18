@@ -1,0 +1,13 @@
+---
+extends: existence
+scope: raw
+level: error
+nonword: true
+link: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line
+message: "Remove merge conflict markers from documentation"
+action:
+  name: remove
+tokens:
+  - '^<{7}\s.*$'
+  - '^={7}$'
+  - '^>{7}\s.*$'

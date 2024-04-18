@@ -1,0 +1,11 @@
+//vale-fixture
+<<<<<<< HEAD
+
+//vale-fixture
+<<<<<<<
+
+//vale-fixture
+>>>>>>>
+
+//vale-fixture
+=======
